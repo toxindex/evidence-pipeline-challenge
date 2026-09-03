@@ -6,10 +6,10 @@ experiments rather than validated scientific products; read their limitations.
 
 | | Project | Shape | Primary skill category |
 |---|---|---|---|
-| 🧬 | **[GeneScore](https://github.com/toxindex/genescore)** | Go + HTMX genomics application: FASTQ through established bioinformatics tools to a provenance-rich report | **Data & domain** |
-| 🕸️ | **[Rhizome](https://github.com/toxindex/rhizome)** | Docker Compose toxicology knowledge graph with schemas, loaders, sample data and graph queries | **Data & domain** |
-| 🧪 | **[PKPD](https://github.com/toxindex/PKPD)** | Containerized Python PK/PD and toxicity-modeling platform with CLI, notebooks and API-oriented deployment | **Models & agents** |
-| 🖥️ | **[Box](https://github.com/toxindex/box)** | Single-binary Go + HTMX application, embedded assets, Docker image and air-gapped deployment posture | **Systems & product** |
+| 🧬 | **[GeneScore](https://github.com/toxindex/genescore)** | Go + HTMX genomics application: FASTQ through established bioinformatics tools to a provenance-rich report | **Scientific informatics** |
+| 🕸️ | **[Rhizome](https://github.com/toxindex/rhizome)** | Docker Compose toxicology knowledge graph with schemas, loaders, sample data and graph queries | **Scientific informatics** |
+| 🧪 | **[PKPD](https://github.com/toxindex/PKPD)** | Containerized Python PK/PD and toxicity-modeling platform with CLI, notebooks and API-oriented deployment | **Intelligent applications** |
+| 🖥️ | **[Box](https://github.com/toxindex/box)** | Single-binary Go + HTMX application, embedded assets, Docker image and air-gapped deployment posture | **Data platforms & orchestration** |
 | 🐹 | **[Go openFDA starter](../examples/go-openfda)** | Dependency-free live API ingestion, validation, NDJSON and retrieval provenance | **Starting point** |
 | 🐍 | **[Python openFDA starter](../examples/python-openfda)** | The same ingestion contract in Python, making language choice irrelevant to the exercise | **Starting point** |
 
@@ -67,4 +67,3 @@ with a carefully evaluated model. It may also look nothing like these.
 
 Whatever you choose, a reviewer should be able to clone it, start it locally,
 follow one result back to source data, and discuss a failure with you.
-

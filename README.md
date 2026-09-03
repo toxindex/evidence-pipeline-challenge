@@ -1,6 +1,6 @@
 # ToxIndex Evidence Pipeline Challenge
 
-![Scientific sources flowing through three engineering skill categories into an evidence product](assets/evidence-pipeline.png)
+![Real-world evidence flowing through the capabilities ToxIndex is hiring for](assets/hiring-flow.svg)
 
 Build a small, useful evidence product from public scientific, regulatory,
 health, agricultural, or environmental data. Pick a real question, ingest at
@@ -13,12 +13,12 @@ Everyone builds the same core: trustworthy data, provenance from result back to
 source, meaningful tests, and a product another person can use. Then choose
 **one category** in which to show us real depth:
 
-1. **Data & domain** — advanced ETL or a BioBrick, Spark/PySpark, streaming,
-   chemical or biological identifiers, scientific data quality and provenance.
-2. **Systems & product** — application and API design, Temporal workflows,
-   Kubernetes/Helm, reliability, observability, security and operability.
-3. **Models & agents** — machine learning or deep learning, evaluation and
-   uncertainty, grounded agents, tool design and verification.
+1. **Scientific informatics** — advanced ETL or a BioBrick, chemical and
+   biological identifiers, scientific data quality, modeling and provenance.
+2. **Data platforms & orchestration** — Spark/PySpark, streaming, Temporal,
+   Kubernetes/Helm, reliability, observability and operability at scale.
+3. **Intelligent applications** — useful APIs and interfaces, machine learning,
+   deep learning, grounded agents, evaluation and verification.
 
 See [skill categories](docs/skill-categories.md) for expectations and examples.
 Technologies are evidence, not requirements: use only what improves the system.
