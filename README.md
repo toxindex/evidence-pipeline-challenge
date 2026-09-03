@@ -33,11 +33,20 @@ Technologies are evidence, not requirements: use only what improves the system.
   contract, and a brief decision/limitations note.
 - Aim for **6–8 focused hours**. Stop at the time box and tell us what comes next.
 
-Start with the equivalent [Go](examples/go-openfda) or
-[Python](examples/python-openfda) openFDA examples, browse
-[self-hosted project gallery](docs/gallery.md) and
-[public data sources](docs/data-sources.md), or start from scratch. We may also
-provide [ToxIndex platform access](docs/toxindex.md) for optional enrichment.
+Three good project shapes are:
+
+- **Evidence factory:** join Kiln/BioBricks datasets with ToxIndex predictions,
+  orchestrate repeatable refreshes, and serve an auditable API and dashboard.
+- **Safety-signal stream:** process a changing public feed with Spark, enrich
+  resolved chemicals with prediction tools, and show freshness and provenance.
+- **Mechanism workbench:** traverse Kiln evidence with SPARQL, run relevant
+  predictors, and build a grounded agent whose claims link back to exact rows.
+
+Use the [Go](examples/go-platform-evidence) or
+[Python](examples/python-platform-evidence) platform example to discover and
+combine live Kiln datasets and prediction tools. See
+[public data sources](docs/data-sources.md) or start from scratch. We provide
+[ToxIndex platform access](docs/toxindex.md) for the challenge.
 
 ## Agents are expected
 
