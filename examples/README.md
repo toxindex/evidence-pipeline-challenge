@@ -10,6 +10,17 @@ result and source passage are the same kind of evidence.
 - [`python-platform-evidence`](python-platform-evidence)
 
 Both use only their language's standard library and include fixture-based unit
-tests. A `tidx_` API key is required for live calls. They are deliberately
-incomplete: candidates should turn the client into a self-hosted product and
-demonstrate depth in their chosen skill category.
+tests. A `tidx_` API key is required for live calls.
+
+The three full challenge examples are deliberately flawed systems with detailed
+candidate briefs:
+
+- [`orchestration-system`](orchestration-system) — Temporal, Spark, Airflow,
+  Kubernetes/Helm, auth and a managed ToxIndex evidence application.
+- [`informatics-transformer`](informatics-transformer) — Tox21 molecular
+  representation learning, clustering, cheminformatics and ToxIndex enrichment.
+- [`agentic-reviewer`](agentic-reviewer) — a bounded, evaluated evidence agent
+  over ToxIndex tools with citation and injection defenses.
+
+Candidates may take one of these shapes or start over. The faults are explicit
+enough to invite review, not a puzzle about undocumented broken code.

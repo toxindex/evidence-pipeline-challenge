@@ -1,0 +1,4 @@
+image: ghcr.io/example/evidence:latest
+toxindexApiKey: tidx_replace_me
+replicas: 1
+

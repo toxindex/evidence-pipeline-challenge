@@ -1,0 +1,7 @@
+apiVersion: v2
+name: evidence-system
+description: Intentionally flawed candidate starter
+type: application
+version: 0.0.1
+appVersion: latest
+

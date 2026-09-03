@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: evidence-system
+spec:
+  replicas: {{ .Values.replicas }}
+  selector:
+    matchLabels: {app: evidence-system}
+  template:
+    metadata:
+      labels: {app: evidence-system}
+    spec:
+      containers:
+        - name: api
+          image: {{ .Values.image }}
+          env:
+            - name: TOXINDEX_API_KEY
+              value: {{ .Values.toxindexApiKey }}
+          # Intentionally absent: security context, resources and real probes.
+          readinessProbe:
+            tcpSocket: {port: 8080}
+
