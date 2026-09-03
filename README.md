@@ -35,6 +35,7 @@ Technologies are evidence, not requirements: use only what improves the system.
 
 Start with the equivalent [Go](examples/go-openfda) or
 [Python](examples/python-openfda) openFDA examples, browse
+[self-hosted project gallery](docs/gallery.md) and
 [public data sources](docs/data-sources.md), or start from scratch. We may also
 provide [ToxIndex platform access](docs/toxindex.md) for optional enrichment.
 
@@ -56,4 +57,3 @@ leads to an interview where you will run the system, explain how it works, trace
 a result to its source, and reason through a failure. **You choose the aspect of
 your selected skill category on which you want the deepest technical grilling.**
 We will still discuss the whole system, but you decide where to set the bar.
-
